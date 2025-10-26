@@ -64,13 +64,7 @@ export default function AppointmentsPage() {
           <div className="max-w-5xl mx-auto">
             <div className="bg-[#F6F8F7] rounded-2xl p-8 shadow-lg">
               <div style={{minHeight: '600px', width: '100%'}}>
-                <iframe 
-                  src="https://api.leadconnectorhq.com/widget/booking/t3xdXmaHu9kHw8HebWS7" 
-                  style={{width: '100%', border: 'none', overflow: 'hidden', minHeight: '600px'}} 
-                  scrolling="no" 
-                  id="X2OCUfz33qw3hH5ufb9w_1761164707468"
-                  title="Schedule Appointment Calendar"
-                ></iframe>
+                <iframe src="https://api.leadconnectorhq.com/widget/booking/t3xdXmaHu9kHw8HebWS7" style="width: 100%;border:none;overflow: hidden;" scrolling="no" id="X2OCUfz33qw3hH5ufb9w_1761511259287"></iframe><br><script src="https://link.msgsndr.com/js/form_embed.js" type="text/javascript"></script>
               </div>
             </div>
           </div>
