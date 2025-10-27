@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react
 import { useState } from 'react'
 import { Menu, X, Phone, Mail, MapPin } from 'lucide-react'
 import { Button } from '@/components/ui/button.jsx'
-import logoImage from '@/assets/new_logo.png'
+import logoImage from '/logo-transparent.png'
 import './App.css'
 
 // Import page components
