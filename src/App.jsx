@@ -137,7 +137,7 @@ function Footer() {
               <li><Link to="/services" className="text-gray-300 hover:text-[#00D9C6] transition-colors">Our Services</Link></li>
               <li><Link to="/contact" className="text-gray-300 hover:text-[#00D9C6] transition-colors">Contact Us</Link></li>
               <li><a href="/epiphany_terms.html" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-[#00D9C6] transition-colors">Terms</a></li>
-              <li><a href="/0epiphany_privacy_policy.html" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-[#00D9C6] transition-colors">Privacy Policy</a></li>
+              <li><a href="/epiphany_privacy_policy.html" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-[#00D9C6] transition-colors">Privacy Policy</a></li>
             </ul>
           </div>
 
