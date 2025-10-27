@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react
 import { useState } from 'react'
 import { Menu, X, Phone, Mail, MapPin } from 'lucide-react'
 import { Button } from '@/components/ui/button.jsx'
-import logoImage from '/logo-transparent.png'
+import logoImage from '@/assets/new_logo.png'
 import './App.css'
 
 // Import page components
@@ -100,7 +100,7 @@ function Footer() {
   return (
     <footer className="bg-[#3E3D3F] text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Company Info */}
           <div>
             <img src={logoImage} alt="Epiphany Health & Safety Consultants" className="h-32 w-auto mb-4 drop-shadow-lg" style={{filter: 'drop-shadow(0 0 10px rgba(255, 255, 255, 0.3))'}} />
@@ -136,7 +136,8 @@ function Footer() {
               <li><Link to="/about" className="text-gray-300 hover:text-[#00D9C6] transition-colors">About</Link></li>
               <li><Link to="/services" className="text-gray-300 hover:text-[#00D9C6] transition-colors">Our Services</Link></li>
               <li><Link to="/contact" className="text-gray-300 hover:text-[#00D9C6] transition-colors">Contact Us</Link></li>
-              <li><a href="#" className="text-gray-300 hover:text-[#00D9C6] transition-colors">Privacy Policy</a></li>
+              <li><a href="/epiphany_terms.html" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-[#00D9C6] transition-colors">Terms</a></li>
+              <li><a href="/0epiphany_privacy_policy.html" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-[#00D9C6] transition-colors">Privacy Policy</a></li>
             </ul>
           </div>
 
